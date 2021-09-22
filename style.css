@@ -10,6 +10,7 @@ html,body{
 .nav{
     margin:0 auto;
     padding: 0;
+    height: 70px;
 }
 
 .nav ul{
@@ -54,4 +55,20 @@ html,body{
 .logo:hover{
     transition: 1s;
     transform: scale(-1.01);
+}
+.home{
+text-align: center;
+}
+
+.home h1{
+    letter-spacing: 3px;
+}
+.home a{
+    background-color: ;
+    border-radius: 30px;
+    padding: 15px;
+}
+.home a:hover{
+    background-color: ;
+    color: ;
 }
