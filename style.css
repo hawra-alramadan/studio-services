@@ -76,3 +76,17 @@ margin-top: 150px;
     background-color: #f9e79b;
     color: ;
 }
+.Gallery{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+.Gallery img{
+    height: 550px;
+    width: 506.33px;
+    flex-wrap: wrap;
+}
+.Gallery img:hover{
+opacity: 50%;
+transition: 1s;
+}
