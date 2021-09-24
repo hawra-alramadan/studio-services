@@ -8,6 +8,7 @@ html,body{
     width: 100%;
 }
 .nav{
+    position: relative;
     margin:0 auto;
     padding: 0;
     height: 70px;
@@ -57,18 +58,21 @@ html,body{
     transform: scale(-1.01);
 }
 .home{
+    height: 400px;
 text-align: center;
+margin-top: 150px;
 }
 
 .home h1{
     letter-spacing: 3px;
 }
 .home a{
-    background-color: ;
-    border-radius: 30px;
+    background-color: #f2f2f2 ;
+    border: #f9e79b solid 1px;
+    border-radius: 30px ;
     padding: 15px;
 }
 .home a:hover{
-    background-color: ;
+    background-color: #f9e79b;
     color: ;
 }
