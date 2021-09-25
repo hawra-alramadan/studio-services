@@ -7,6 +7,7 @@ html,body{
 #header{
     width: 100%;
 }
+
 .nav{
     position: relative;
     margin:0 auto;
@@ -36,6 +37,7 @@ html,body{
     letter-spacing: 3px;
     padding: 5px 120px;
 }
+
 .nav ul li a:hover{
     transition: 1s;
     color: rgb(133, 99, 99);
@@ -53,6 +55,7 @@ html,body{
     transition: 1s;
     content: '';
 }
+
 .logo:hover{
     transition: 1s;
     transform: scale(-1.01);
@@ -76,6 +79,7 @@ a{
     text-transform: uppercase;
     font-size: 40px;
 }
+
 .line-1{
     width: 30%;
     height: 1px;
@@ -91,10 +95,12 @@ a{
     margin-left: 25%;
    margin-bottom: 50px;
 }
+
 .home h1, p, .line-1{
     align-content: center;
     justify-items: center;
 }
+
 .home a{
     background-color: #f2f2f2 ;
     border: #f9e79b solid 1px;
@@ -103,20 +109,24 @@ a{
     align-items: center;
     font-size: 25px;
 }
+
 .home a:hover{
     background-color: #f9e79b;
     color: rgb(20, 20, 20);
 }
+
 .Gallery{
     display: flex;
     justify-content:space-around ;
     flex-wrap: wrap;
 }
+
 .Gallery img{
     height: 620px;
     width: 506.4px;
     flex-wrap: wrap;
 }
+
 .Gallery img:hover{
 opacity: 50%;
 transition: 1s;
@@ -127,6 +137,7 @@ transition: 1s;
     margin: 0 auto;
     padding: 30px;
 }
+
 .head{
     padding-top: 30px;
    font-size: 35px;
@@ -143,6 +154,7 @@ transition: 1s;
     line-height: 1cm;
     text-align: center;
 }
+
 .Packages{
    display: flex;
    flex-wrap: wrap;
@@ -158,15 +170,24 @@ transition: 1s;
     align-items: center;
     justify-items: center;
 }
+
 .item .tab{
     font-size: 20px;
     margin: 16px;
 }
+
 .item img{
     width: 200px;
     height: 200px;
 }
 
 .team{
-    text-align: center;
+    text-align: center; 
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
