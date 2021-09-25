@@ -57,24 +57,55 @@ html,body{
     transition: 1s;
     transform: scale(-1.01);
 }
+
+a{
+    text-decoration: none;
+}
+
 .home{
-    height: 400px;
-text-align: center;
-margin-top: 150px;
+    display: flex;
+    height: 350px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px;
+    flex-direction: column;
 }
 
 .home h1{
     letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.line-1{
+    width: 30%;
+    height: 1px;
+    margin-left: 35%;
+    background-color: #000;
+    align-content: center;
+}
+
+.home p{
+    height: 40px;
+    width: 47%;
+    font-size: 16px;
+    margin-left: 25%;
+   margin-bottom: 50px;
+}
+.home h1, p, .line-1{
+    align-content: center;
+    justify-items: center;
 }
 .home a{
     background-color: #f2f2f2 ;
     border: #f9e79b solid 1px;
     border-radius: 30px ;
     padding: 15px;
+    align-items: center;
+    font-size: 25px;
 }
 .home a:hover{
     background-color: #f9e79b;
-    color: ;
+    color: rgb(20, 20, 20);
 }
 .Gallery{
     display: flex;
@@ -82,11 +113,60 @@ margin-top: 150px;
     flex-wrap: wrap;
 }
 .Gallery img{
-    height: 550px;
-    width: 506.33px;
+    height: 620px;
+    width: 506.4px;
     flex-wrap: wrap;
 }
 .Gallery img:hover{
 opacity: 50%;
 transition: 1s;
+}
+
+.cards{
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+}
+.head{
+    padding-top: 30px;
+   font-size: 35px;
+   margin: 0;
+   letter-spacing: 2px;
+   text-align: center;
+   word-spacing: 5px;
+}
+
+.cards p{
+    padding-top: 20px;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 1cm;
+    text-align: center;
+}
+.Packages{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+}
+
+.item{
+    display: flex;
+    margin: 40px;
+    padding: 0 40px;
+    align-items: center;
+    justify-items: center;
+}
+.item .tab{
+    font-size: 20px;
+    margin: 16px;
+}
+.item img{
+    width: 200px;
+    height: 200px;
+}
+
+.team{
+    text-align: center;
 }
