@@ -1,6 +1,6 @@
 # studio-services
 
- It is a responsive tea-shop website.
+ It is a responsive studio-services website.
  
 
  - This Site made  using HTML5, CSS3.
